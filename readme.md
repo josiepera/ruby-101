@@ -328,7 +328,7 @@ say_hi
 
 We called the method without using parens!
 
-### Bonus: [defining methods that `yield` blocks](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U04_D01_Ruby_101/blob/master/blocks.md)
+### Bonus: [defining methods that `yield` blocks](https://git.generalassemb.ly/wdi-nyc-peloton/LECTURE_U04_D01_Ruby_101/blob/master/blocks.md)
 
 
 
@@ -454,7 +454,7 @@ Here are the most important rules
 
 Ruby is really fun!
 
-Like anything else, you will only learn if you _do_ it. [Start doing!](https://git.generalassemb.ly/wdi-nyc-delorean/LAB_U04_D01_Ruby_101)
+Like anything else, you will only learn if you _do_ it. [Start doing!](https://git.generalassemb.ly/wdi-nyc-peloton/LAB_U04_D01_Ruby_101)
 
 ## Resources
 
