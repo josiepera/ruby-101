@@ -50,6 +50,12 @@ Numbers in Ruby are in the [`Numeric`](https://ruby-doc.org/core-2.1.0/Numeric.h
 1 / 2.0 #=> 0.5 (does not round float)
 ```
 
+To divide two integers together, convert them to `Float`s first:
+
+```ruby
+1.to_f / 2 # => 0.5
+```
+
 ## Strings
 
 A [`String`](https://ruby-doc.org/core-2.1.0/String.html) in Ruby is similar to strings in JS.
@@ -70,7 +76,7 @@ str.upcase! # => 'FOO'
 str # => 'FOO' (upcase! DOES mutate str)
 ```
 
-There is nothing magic about having a `!` at the end of a method but it is often used for "dangerous" operations
+Any method you see that ends in a bang (`!`) is Ruby telling you something unexpected or dangerous results when calling it. Mutating a value directly is unexpected.
 
 ### Interpolation
 
@@ -91,13 +97,9 @@ You can also concatenate strings but this is NOT recommend
 'foo' + 2.to_s # => 'foo2'
 ```
 
-Above we see that we canNOT implicitly convert a non-string into a string (unlike what we have seen in JS).
-
+There is very little implicit conversion in Ruby! When dealing with types of different types, convert them to types that work together first.
 
 Use single quotes for strings that are not interpolated
-
-> Warning: Backticks are *not* used for strings! They are used to execute commands. (`echo hello world`)
-
 
 ## Symbols
 
