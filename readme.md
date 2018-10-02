@@ -56,6 +56,15 @@ To divide two integers together, convert them to `Float`s first:
 1.to_f / 2 # => 0.5
 ```
 
+FixNums have some nice methods, like
+
+```ruby
+1.odd? # => true
+2.even? # => false
+```
+
+Methods that return a boolean often end in a question mark `?` to make the code readable.
+
 ## Strings
 
 A [`String`](https://ruby-doc.org/core-2.1.0/String.html) in Ruby is similar to strings in JS.
