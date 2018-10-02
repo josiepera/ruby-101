@@ -240,7 +240,7 @@ for(var i = 0; i < 3; i++) {
 In Ruby this is much cleaner:
 
 ```ruby
-3.times { |i| puts i }
+3.times { |i| p i }
 # > 0
 # > 1
 # > 2
@@ -254,7 +254,7 @@ We can also iterate over arrays:
 ```ruby
 arr = [10, 20, 30]
 
-arr.each { |num| puts num }
+arr.each { |num| p num }
 # > 10
 # > 20
 # > 30
@@ -277,7 +277,7 @@ And we can iterate over hashes:
 ```ruby
 hash = { a: 1, b: 2, c: 3 }
 hash.each do |key, val|
-  puts "the value of #{key} is #{val}"
+  p "the value of #{key} is #{val}"
 end
 # > the value of a is 1
 # > the value of b is 2
@@ -328,7 +328,7 @@ We also do NOT use parentheses when calling a method without arguments
 
 ```ruby
 def say_hi(name = 'World')
-  puts "Hello, #{name}!"
+  p "Hello, #{name}!"
 end
 
 say_hi('Stacey')
@@ -353,11 +353,11 @@ Cake.
 ```ruby
 def number_message(num)
   if num < 10
-    puts "what a small number"
+    p "what a small number"
   elsif num > 10
-    puts "That is a big number!"
+    p "That is a big number!"
   else
-    puts "That number is just right!"
+    p "That number is just right!"
   end
 end
 ```
@@ -366,13 +366,13 @@ end
 We also have single-line ifs
 
 ```ruby
-puts "you are old!" if age >= 100
+p "you are old!" if age >= 100
 ```
 
 You may even see `unless`
 
 ```ruby
-puts "you are old!" unless age < 100
+p "you are old!" unless age < 100
 ```
 When you see an `unless foo`, read it as `if !foo`
 
@@ -391,7 +391,7 @@ num.even? ? "#{num} is even!" : "#{num} is odd!"
 ```ruby
 a = 10
 while a.positive?
-  puts a
+  p a
   a -= 1
 end
 ```
@@ -437,7 +437,7 @@ Here are the most important rules
 * A single line block must use `{` and `}`
 * A multi-line must use `do` and `end`
 * If an argument is unused it should start with `_` (or just be named `_`)
-  * `hash.each { |_key, val| puts val }`
+  * `hash.each { |_key, val| p val }`
 
 **Methods**
 
