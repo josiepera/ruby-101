@@ -1,13 +1,3 @@
----
-title: Ruby 101
-type: lesson
-duration: "2:30"
-creator:
-    name: Ari Brenner
-    city: NY
-competencies: Programming
----
-
 # Ruby 101
 
 ### Objectives
