@@ -465,7 +465,7 @@ Here are the most important rules
 
 Ruby is really fun!
 
-Like anything else, you will only learn if you _do_ it. [Start doing!](https://git.generalassemb.ly/wdi-nyc-peloton/LAB_U04_D01_Ruby_101)
+Like anything else, you will only learn if you _do_ it. [Start doing!](https://git.generalassemb.ly/wdi-nyc-67-mustang/ruby-101-lab)
 
 ## Resources
 
